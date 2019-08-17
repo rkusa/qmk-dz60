@@ -28,13 +28,6 @@ const uint32_t PROGMEM unicode_map[] = {
 #define MODS_RSHIFT  (get_mods() & MOD_BIT(KC_RSHIFT))
 #define MODS_SHIFT  (MODS_LSHIFT || MODS_RSHIFT)
 
-enum custom_keycodes {
-	UE = SAFE_RANGE,
-	OE,
-	AE,
-	SZ
-};
-
 // we are going to unregister the shift keys, when shift+backspace is pressed and use those
 // variables to keep track of them instead
 static bool bspc_del_lshift = false;
@@ -44,16 +37,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 	// #ifdef CONSOLE_ENABLE
   //   uprintf("KL: kc: %u, pressed: %u, shift: %u\n", keycode, record->event.pressed, MODS_SHIFT);
 	// #endif
-
-	switch ()
-
-	if (record->event.pressed) {
-        switch(keycode) {
-            case TROLL:
-                SEND_STRING(":trollface:");
-                return false;
-      }
-  }
 
 	// ctrl + backspace = del (forward delete)
 	if (keycode == KC_BSPC) {
