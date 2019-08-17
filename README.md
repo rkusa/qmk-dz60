@@ -12,6 +12,10 @@ Customizations:
 - Mac style placement of modifier keys (ctrl, option, command)
 - Fn + certain buttons in the second row = various media keys
 
+![Keyboard Layout](./layout.png)
+
+(picture of my custom keycaps order from [wasd](http://www.wasdkeyboards.com))
+
 ## Build
 
 ```
