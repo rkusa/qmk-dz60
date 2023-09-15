@@ -16,6 +16,19 @@ Customizations:
 
 (picture of my custom keycaps order from [wasd](http://www.wasdkeyboards.com))
 
+## FN-Layer
+
+- FN+backspace -> delete
+- FN+s -> sleep
+- FN+l -> light toggle
+- FN+p -> play/pause
+- FN+n -> next track
+- FN+b -> previous track
+- FN+m -> mute
+- FN+up -> volume up
+- FN+down -> volume down
+
+
 ## Build
 
 ```
